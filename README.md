@@ -20,10 +20,10 @@
 
 ## :sparkles: Features
 
-:heavy_check_mark: Includes one template based on this [article](https://blog.rocketseat.com.br/como-fazer-um-bom-readme/#-contribui-o);\
-:heavy_check_mark: Support ```En``` and ```pt-BR``` languages;\
-:heavy_check_mark: Generates ```title``` and  ```badges``` by reading the name of the project on the package.json or the root folder;
-:heavy_check_mark: Generates a ```link``` to your Github profile;
+:heavy_check_mark: Includes one template based on this [article](https://blog.rocketseat.com.br/como-fazer-um-bom-readme);\
+:heavy_check_mark: Support En and pt-BR languages;\
+:heavy_check_mark: Generates title and  badges by reading the name of the project on the package.json or the root folder;\
+:heavy_check_mark: Generates a link to your Github profile;
 
 ## :gear: Settings
 
