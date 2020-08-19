@@ -2,7 +2,7 @@
 	"name": "vscode-simple-readme",
 	"displayName": "Simple Readme",
 	"description": "Generate readme fastly and simply with Simple Readme",
-	"publisher": "Mauro de Souza",
+	"publisher": "maurodesouza",
 	"author": "Mauro de Souza",
 	"license": "MIT",
 	"icon": "simple-readme-icon.png",
