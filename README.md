@@ -1,6 +1,6 @@
-<h1 align="center">Simple Readme</h1>
+<h1>Simple Readme</h1>
 
-<h3 align="center">Generate readme fastly and simply with Simple Readme</h3>
+Generate readme fastly and simply with Simple Readme
 
 <br>
 
@@ -10,22 +10,14 @@
 
 <br>
 
-<p align="center">
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#gear-settings">Settings</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-template">Template</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/maurodesouza" target="_blank">Author</a>
-</p>
+## Features
 
-## :sparkles: Features
+- Includes one template based on this [article](https://blog.rocketseat.com.br/como-fazer-um-bom-readme);
+- Support En and pt-BR languages;
+- Generates title and  badges by reading the name of the project on the package.json or the root folder;
+- Generates a link to your Github profile;
 
-:heavy_check_mark: Includes one template based on this [article](https://blog.rocketseat.com.br/como-fazer-um-bom-readme);\
-:heavy_check_mark: Support En and pt-BR languages;\
-:heavy_check_mark: Generates title and  badges by reading the name of the project on the package.json or the root folder;\
-:heavy_check_mark: Generates a link to your Github profile;
-
-## :gear: Settings
+## Settings
 
 You can add these settings in your settings.json
 
@@ -43,8 +35,7 @@ You can add these settings in your settings.json
 * `simple.readme.settings.name`: To put your name on the file end;
 * `simple.readme.settings.lang`: The template language;
 
-
-## :page_with_curl: Template
+## Template
 
 - App gif/image;
 - Title;
@@ -63,15 +54,3 @@ You can add these settings in your settings.json
 To see the markdown template, [click here](./templates/en/default.md)
 
 To see how the resulting final looks like,  [click here](https://github.com/maurodesouza/weather-react-app);
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/maurodesouza" target="_blank">Mauro de Souza</a>
-
-&#xa0;
-
-<a href="#top">Back to top</a>
-<hr>
