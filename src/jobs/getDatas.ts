@@ -1,18 +1,15 @@
 import { Uri, workspace } from 'vscode';
 
 import getProjectName from './getProjectName';
-import toTitleCase from '../utils/toTitleCase';
-import toKebabLowercase from '../utils/toKebabLowercase';
-import toContinuosLowerCase from '../utils/toContinuosLowerCase';
+import { ParseString } from '../utils/parseString';
 
 export default async (uri: Uri) => {
   const projectname = await getProjectName(uri);
   const readmeConfig = workspace.getConfiguration('simple.readme.settings');
 
-  const app_name = toTitleCase(projectname);
-  const repository = toKebabLowercase(app_name);
-
-  const app_url = toContinuosLowerCase(app_name);
+  const app_name = new ParseString(projectname).toTitleCase();
+  const repository = new ParseString(app_name).toKebabLowerCase();
+  const app_url = new ParseString(app_name).toContinuosLowerCase();
 
   const github = readmeConfig.get<string>('github') || '{{YOUR_GITHUB_USERNAME}}';
   const author = readmeConfig.get<string>('name') || '{{YOUR_NAME}}';
