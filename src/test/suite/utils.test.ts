@@ -1,8 +1,6 @@
 import * as assert from 'assert';
 
-import toTitleCase from '../../utils/toTitleCase';
-import toKebabLowercase from '../../utils/toKebabLowercase';
-import toContinuosLowerCase from '../../utils/toContinuosLowerCase';
+import { ParseString } from '../../utils/parseString';
 
 suite('Utils test', () => {
   test('toTitleCase - should be return with all words in capitalize', () => {
@@ -31,11 +29,11 @@ suite('Utils test', () => {
       output: 'Some Any a With o b De File',
     };
 
-    const result1 = toTitleCase(expect1.input);
-    const result2 = toTitleCase(expect2.input);
-    const result3 = toTitleCase(expect3.input);
-    const result4 = toTitleCase(expect4.input);
-    const result5 = toTitleCase(expect5.input);
+    const result1 = new ParseString(expect1.input).toTitleCase();
+    const result2 = new ParseString(expect2.input).toTitleCase();
+    const result3 = new ParseString(expect3.input).toTitleCase();
+    const result4 = new ParseString(expect4.input).toTitleCase();
+    const result5 = new ParseString(expect5.input).toTitleCase();
 
     assert.equal(result1, expect1.output);
     assert.equal(result2, expect2.output);
@@ -70,11 +68,11 @@ suite('Utils test', () => {
       output: 'some-any-a-with-o-b-de-file',
     };
 
-    const result1 = toKebabLowercase(expect1.input);
-    const result2 = toKebabLowercase(expect2.input);
-    const result3 = toKebabLowercase(expect3.input);
-    const result4 = toKebabLowercase(expect4.input);
-    const result5 = toKebabLowercase(expect5.input);
+    const result1 = new ParseString(expect1.input).toKebabLowerCase();
+    const result2 = new ParseString(expect2.input).toKebabLowerCase();
+    const result3 = new ParseString(expect3.input).toKebabLowerCase();
+    const result4 = new ParseString(expect4.input).toKebabLowerCase();
+    const result5 = new ParseString(expect5.input).toKebabLowerCase();
 
     assert.equal(result1, expect1.output);
     assert.equal(result2, expect2.output);
@@ -109,11 +107,11 @@ suite('Utils test', () => {
       output: 'someanyawithobdefile',
     };
 
-    const result1 = toContinuosLowerCase(expect1.input);
-    const result2 = toContinuosLowerCase(expect2.input);
-    const result3 = toContinuosLowerCase(expect3.input);
-    const result4 = toContinuosLowerCase(expect4.input);
-    const result5 = toContinuosLowerCase(expect5.input);
+    const result1 = new ParseString(expect1.input).toContinuosLowerCase();
+    const result2 = new ParseString(expect2.input).toContinuosLowerCase();
+    const result3 = new ParseString(expect3.input).toContinuosLowerCase();
+    const result4 = new ParseString(expect4.input).toContinuosLowerCase();
+    const result5 = new ParseString(expect5.input).toContinuosLowerCase();
 
     assert.equal(result1, expect1.output);
     assert.equal(result2, expect2.output);
