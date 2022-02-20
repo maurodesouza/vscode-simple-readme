@@ -6,7 +6,7 @@
 	"author": "Mauro de Souza",
 	"license": "MIT",
 	"icon": "simple-readme-icon.png",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"homepage": "https://github.com/maurodesouza/vscode-simple-readme",
 	"bugs": {
 		"url": "https://github.com/maurodesouza/vscode-simple-readme/issues"
