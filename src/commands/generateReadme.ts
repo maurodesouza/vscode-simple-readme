@@ -6,7 +6,6 @@ import getDatas from '../jobs/getDatas';
 import getContent from '../jobs/getContent';
 
 const generateReadme = async (uri: Uri) => {
-
   try {
     const currentUri = await getCurrentUri(uri);
     const readmeUri = await getReadmeUri(currentUri);
@@ -16,7 +15,12 @@ const generateReadme = async (uri: Uri) => {
 
     await workspace.fs.writeFile(readmeUri, Buffer.from(content));
   } catch (err) {
-    window.showErrorMessage(err.message);
+    if (err instanceof Error) {
+      window.showErrorMessage(err.message);
+      return;
+    }
+
+    window.showErrorMessage('simple readme: an unexpected error has occurred');
   };
 };
 
