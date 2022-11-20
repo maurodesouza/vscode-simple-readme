@@ -10,17 +10,11 @@
 
 <p align="center">
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/{{github}}/{{repository}}?color=56BEB8">
-
   <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/{{github}}/{{repository}}?color=56BEB8">
-
   <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/{{github}}/{{repository}}?color=56BEB8">
-
   <img alt="Licença" src="https://img.shields.io/github/license/{{github}}/{{repository}}?color=56BEB8">
-
   <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{github}}/{{repository}}?color=56BEB8" /> -->
-
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{github}}/{{repository}}?color=56BEB8" /> -->
-
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{github}}/{{repository}}?color=56BEB8" /> -->
 </p>
 
@@ -88,7 +82,7 @@ $ yarn start
 
 ## :memo: Licença ##
 
-Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 
 Feito com :heart: por <a href="https://github.com/{{github}}" target="_blank">{{author}}</a>
