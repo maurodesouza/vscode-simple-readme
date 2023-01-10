@@ -89,4 +89,4 @@ Made with :heart: by <a href="https://github.com/{{github}}" target="_blank">{{a
 
 &#xa0;
 
-<a href="#top">Back to top</a>
+<a href="#top">⬆️ Back to top</a>
